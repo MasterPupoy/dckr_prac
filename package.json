@@ -1,0 +1,27 @@
+{
+  "name": "dckr_prac",
+  "version": "1.0.0",
+  "description": "some http server that sends hello world",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MasterPupoy/dckr_prac.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MasterPupoy/dckr_prac/issues"
+  },
+  "homepage": "https://github.com/MasterPupoy/dckr_prac#readme",
+  "devDependencies": {
+    "@types/node": "^18.7.6",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "fastify": "^4.5.0"
+  }
+}
